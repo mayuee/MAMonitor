@@ -50,7 +50,7 @@
 
 static void runLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info)
 {
-    MMonitor *instrance = [SeMonitorController sharedInstance];
+    MMonitor *instrance = [MMonitor sharedInstance];
     instrance->_activity = activity;
     // 发送信号
     dispatch_semaphore_t semaphore = instrance->_semaphore;
