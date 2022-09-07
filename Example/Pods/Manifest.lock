@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MAMonitor (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MAMonitor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MAMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MAMonitor: c51cf54205c732482cdef8dbee164c32611330a5
+
+PODFILE CHECKSUM: d545014f0d72f2134a9268adbe6549578a22f1aa
+
+COCOAPODS: 1.11.3

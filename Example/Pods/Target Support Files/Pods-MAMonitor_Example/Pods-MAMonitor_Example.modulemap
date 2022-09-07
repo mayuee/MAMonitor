@@ -1,0 +1,6 @@
+framework module Pods_MAMonitor_Example {
+  umbrella header "Pods-MAMonitor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

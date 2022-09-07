@@ -1,0 +1,6 @@
+framework module MAMonitor {
+  umbrella header "MAMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

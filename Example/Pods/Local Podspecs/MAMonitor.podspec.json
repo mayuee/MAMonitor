@@ -1,0 +1,22 @@
+{
+  "name": "MAMonitor",
+  "version": "0.1.0",
+  "summary": "A short description of MAMonitor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mzb/MAMonitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mzb": "mazhibao2010@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Mzb/MAMonitor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MAMonitor/Classes/**/*"
+}
