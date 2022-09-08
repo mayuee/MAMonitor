@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'MAMonitor_Example' do
-  pod 'MAMonitor', :path => '../'
+  #pod 'MAMonitor', :path => '../'
+  pod 'MAMonitor',:podspec => '../MAMonitor.podspec'
 
   target 'MAMonitor_Tests' do
     inherit! :search_paths
